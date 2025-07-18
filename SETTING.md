@@ -9,6 +9,7 @@ git --version
 ```
 2. Git 2.25버전 이상일때와 미만일때 명령어가 달라져서, 참고하시고 진행해주시면 감사하겠습니다.
 
+
 ## 1. Git Clone
 1. **저장소를 클론하되, 파일은 내려받지 않기 (`--no-checkout`)**
 전체 파일, 폴더를 다운로드하지 않고 저장소의 정보만 가져옵니다.
@@ -18,6 +19,7 @@ git --version
 ```bash
 git clone --no-checkout git@github.com:zeho825/Spatial_Transcriptomics_Study.git
 ```
+- 해당 디렉토리 내에 'Spatial_Transcriptomics_Study' 폴더가 만들어졌는지 확인해주세요.
 
 2. **`sparse-checkout` 기능 활성화**
 - 선택적으로 파일/폴더를 가져오기 위해 `sparse-checkout`을 활성화합니다.
